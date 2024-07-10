@@ -40,7 +40,7 @@ Para ver el proyecto en tu navegador local:
 
 1. Clona el repositorio:
     ```bash
-    git clone https://github.com/tu-usuario/biblioteca-triple-peaks.git
+    git clone https://github.com/luuzuriaga/sprint2GH
     ```
 2. Navega al directorio del proyecto:
     ```bash
