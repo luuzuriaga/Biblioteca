@@ -51,7 +51,7 @@ Para ver el proyecto en tu navegador local:
 ## Capturas de Pantalla
 
 ### Página Principal
-![Página Principal](images/inside_the_library.png)
+![Página Principal](images/index.png)
 
 ## Contribuir
 
