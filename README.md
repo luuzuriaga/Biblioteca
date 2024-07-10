@@ -1,40 +1,74 @@
 # Biblioteca Triple Peaks
 
-Bienvenidos a la Biblioteca Triple Peaks. Este proyecto es una página web diseñada para nuestra biblioteca, que ofrece una plataforma para que los usuarios exploren nuestros recursos y eventos.
+¡Bienvenido a la Biblioteca Triple Peaks! Este es un proyecto de sitio web para la biblioteca local que proporciona información sobre los servicios y eventos que ofrecemos, así como los libros favoritos de nuestros lectores.
 
-## Tecnologías Utilizadas
+## Descripción
 
-- **HTML5**
-- **CSS3**
-- **Flexbox**: Utilizado para alinear elementos en el encabezado, la navegación y el pie de página.
-- **CSS Grid**: Utilizado para organizar las tarjetas de recomendación del personal en una disposición de dos columnas y dos filas.
-- **JavaScript** (opcional para funcionalidades adicionales)
+La Biblioteca Triple Peaks es un lugar acogedor para estudiar, trabajar y ampliar conocimientos. Este sitio web está diseñado para facilitar la navegación y proporcionar toda la información relevante sobre la biblioteca, incluyendo:
+
+- Información sobre la biblioteca y su ubicación.
+- Los libros favoritos de nuestros lectores.
+- Eventos y actividades programadas.
+- Cómo convertirse en miembro de la biblioteca.
+- Información de contacto.
 
 ## Estructura del Proyecto
 
-### HTML
+El proyecto está organizado de la siguiente manera:
 
-El archivo principal de HTML (`index.html`) contiene la estructura de la página, incluyendo el encabezado, el contenido principal y el pie de página.
+│
+├── index.html           # Página principal de la biblioteca
+├── styles/
+│   ├── normalize.css    # CSS para normalizar estilos
+│   └── style.css        # Estilos personalizados para la página
+├── images/
+│   ├── logo.svg         # Logotipo de la biblioteca
+│   └── inside_the_library.png  # Imagen de la biblioteca
+├── vendor/
+│   └── normalize.css    # Archivo de normalización de CSS
+└── README.md            # Archivo README con información del proyecto
 
-### CSS
+## Tecnologías Utilizadas
 
-El archivo de estilos principal (`styles/style.css`) incluye los siguientes componentes:
+- **HTML**: Para estructurar el contenido de la página.
+- **CSS**: Para dar estilo y diseño a la página.
+- **Normalize.css**: Para normalizar los estilos predeterminados del navegador y asegurar consistencia.
 
-- **Encabezado (`.header`)**: Diseñado utilizando Flexbox para alinear el contenido verticalmente.
-- **Navegación (`.nav`)**: Utiliza Flexbox para alinear el logotipo y los enlaces de navegación.
-- **Contenido Principal (`.header__content`)**: Utiliza Flexbox para distribuir el título, la descripción y la imagen.
-- **Tarjetas de Recomendación (`.staff__cards`)**: Utiliza CSS Grid para disponer las tarjetas en una cuadrícula de dos columnas y dos filas.
+## Cómo Ver el Proyecto
 
-## Cómo Ejecutar el Proyecto
+Para ver el proyecto en tu navegador local:
 
-1. Clona este repositorio: `git clone https://github.com/tu_usuario/biblioteca-triple-peaks.git`
-2. Navega al directorio del proyecto: `cd biblioteca-triple-peaks`
-3. Abre `index.html` en tu navegador web preferido.
+1. Clona el repositorio:
+    ```bash
+    git clone https://github.com/tu-usuario/biblioteca-triple-peaks.git
+    ```
+2. Navega al directorio del proyecto:
+    ```bash
+    cd biblioteca-triple-peaks
+    ```
+3. Abre el archivo `index.html` en tu navegador preferido.
 
-## Contribuciones
+## Capturas de Pantalla
 
-Las contribuciones son bienvenidas. Por favor, abre un issue o envía un pull request para mejoras.
+### Página Principal
+![Página Principal](images/inside_the_library.png)
+
+## Contribuir
+
+¡Las contribuciones son bienvenidas! Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
+
+1. Realiza un fork del proyecto.
+2. Crea una rama para tus cambios (`git checkout -b feature/nueva-funcionalidad`).
+3. Realiza tus cambios y commitea (`git commit -am 'Añadir nueva funcionalidad'`).
+4. Sube tu rama (`git push origin feature/nueva-funcionalidad`).
+5. Abre un Pull Request.
 
 ## Licencia
 
-Este proyecto está licenciado bajo la Licencia MIT.
+Este proyecto está bajo la Licencia MIT. 
+
+## Contacto
+
+Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto con nosotros:
+
+¡Gracias por visitar la Biblioteca Triple Peaks!
