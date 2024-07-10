@@ -53,16 +53,6 @@ Para ver el proyecto en tu navegador local:
 ### Página Principal
 ![Página Principal](images/index.png)
 
-## Contribuir
-
-¡Las contribuciones son bienvenidas! Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
-
-1. Realiza un fork del proyecto.
-2. Crea una rama para tus cambios (`git checkout -b feature/nueva-funcionalidad`).
-3. Realiza tus cambios y commitea (`git commit -am 'Añadir nueva funcionalidad'`).
-4. Sube tu rama (`git push origin feature/nueva-funcionalidad`).
-5. Abre un Pull Request.
-
 ## Licencia
 
 Este proyecto está bajo la Licencia MIT. 
