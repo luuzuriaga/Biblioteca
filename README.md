@@ -41,12 +41,12 @@ Para visualizar el proyecto en tu navegador local, sigue estos pasos:
 
 1. **Clona el repositorio:**
 ```bash
-   git clone https://github.com/luuzuriaga/sprint2GH
+   git clone https://github.com/luuzuriaga/biblioteca
 ```
 
 2. **Navega al directorio del proyecto:**
 ```bash
-   cd sprint2GH
+   cd biblioteca
 ```
 
 3. **Abre el archivo en tu navegador:**
